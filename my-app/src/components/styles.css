@@ -1,0 +1,60 @@
+body {
+    background-color: #F3E7D8;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #F3A732;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: 'Cedarville Cursive', cursive;
+    width: 100vw;
+    font-size: 16px;
+    height: 10vh;
+    padding: 20px 20px;
+
+}
+
+.noteStyle h1 {
+    color: black;
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+}
+
+section {
+    padding: 5% 10px;
+}
+
+.noteStyle {
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+    top: 100px;
+    width: 240px;
+    float: left;
+    height: 100px;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/textured-paper.png");
+}
+
+.noteStyle p {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+}
+
+footer {
+    position: fixed;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: grey;
+    padding: 20px 20px;
+}
